@@ -49,5 +49,5 @@ def apply_sobel_filter(image_path):
     plt.show()
 
 # Example usage
-image_path = 'path/to/your/image.jpg'  # Specify the file path
+image_path = 'homeworks/Image/testImage.jpg'  # File path
 apply_sobel_filter(image_path)
