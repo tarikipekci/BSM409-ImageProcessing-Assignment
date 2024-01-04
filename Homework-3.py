@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-def histogram_esitleme(image_path):
+def equalize_histogram(image_path):
     #Read Image
     img = cv2.imread(image_path, 0)
 
@@ -24,4 +24,4 @@ def histogram_esitleme(image_path):
 
 # Example
 image_path = 'homeworks/Image/testImage.jpg'  # File path
-histogram_esitleme(image_path)
+equalize_histogram(image_path)
