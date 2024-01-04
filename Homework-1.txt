@@ -1,0 +1,17 @@
+Görüntü işlemede normalizasyon ve standardizasyon, veri ön işleme teknikleri olarak kullanılan iki farklı ölçekleme yöntemidir.
+
+Normalizasyon:
+
+Amacı: Verileri belirli bir aralığa sıkıştırmak veya normalize etmek.
+Methodu: Değerleri genellikle [0, 1] veya [-1, 1] gibi belirli bir aralığa ölçeklemek.
+Örnek: Görüntü piksel değerlerini [0, 255] aralığından [0, 1] aralığına çevirme.
+
+Standardizasyon:
+
+Amacı: Veri setindeki değerlerin ortalamasını 0, standart sapmasını 1 yaparak bir standart normal dağılıma benzetmek.
+Methodu: Değerleri z-score formülü kullanılarak standart sapma birimleri cinsinden ifade etmek.
+Örnek: Görüntü piksel değerlerini standart normal dağılıma göre ölçekleme.
+
+Özet:
+
+Kısaca normalizasyon belirli bir aralığa ölçekleme yaparken standardizasyon veri setindeki değerleri bir standart normal dağılıma çevirir.
